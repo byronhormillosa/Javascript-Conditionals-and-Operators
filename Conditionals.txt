@@ -1,0 +1,76 @@
+#### Questions
+
+>What are the three types of conditional statements?
+
+A: `if`, `else if`, and `else`
+
+>What are four types of Comparison Operators and how you would use them?
+
+A:
+
+Strict equality operator - tests both value and data type
+
+let points = '3';
+if (points === 3) {
+return 'from way downtown!';
+} else {
+return 'missed';
+}
+
+Inequality Operator - tests  both comparators are not equal
+
+let amount = 2;
+if (amount !=2) {
+return 'it takes two to tango';
+} else {
+return 'let's tango!';
+}
+
+Greater Than Operator - tests if the left value exceeds the right value
+
+let speed = 35;
+  if (speed > 35) {
+return 'You are over the speed limit';
+} else {
+  return 'You are within the speed limit';
+}
+
+Less than operator - tests if the left value defecits the right value
+
+
+let calories = 1700;
+  if (calories < 1700) {
+return 'You are within your daily calorie intake';
+} else {
+  return 'You have exceeded your calorie consumption';
+}
+
+
+#### Code Practice
+
+```javascript
+
+var grade;
+function  assignmentGrade(grade){
+if (grade <= 100 && grade >=90){
+return 'Your final grade is A';
+} 
+
+else if (grade <= 89 && grade >= 80){
+return 'Your final grade is B';
+}
+
+else if (grade <= 79 && grade >= 70){
+return 'Your final grade is C';
+}
+
+else if (grade <= 69 && grade >= 60){
+return 'Your final grade is D';
+}
+
+else (grade <= 59){
+return 'Your final grade is F';
+}
+}
+console.log(grade);
+```
